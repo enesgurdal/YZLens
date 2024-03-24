@@ -1,0 +1,37 @@
+.header {
+    background: linear-gradient(to right, #add8e6, #87ceeb); /* Açık mavi ve toz mavi gradyen */
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: #333; /* Menü linklerinin rengi */
+}
+/* Header ve main ile ilgili stillendirmeler buraya eklenecek */
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* İsteğe bağlı: arka planı hafifçe saydam bir beyaz renk */
+    padding: 5px 10px; /* İsteğe bağlı: metnin etrafına biraz boşluk ekler */
+    border-radius: 5px; /* İsteğe bağlı: kenarları yuvarlar */
+}
+.footer {
+    background: linear-gradient(to right, #90ee90, #20b2aa); /* Açık yeşil ve su yeşili gradyen */
+    padding: 20px 0;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+
